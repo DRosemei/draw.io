@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-13T02:56:22.648Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="eifLZrbDqm2YK0j-h7uz" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-13T03:37:15.971Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="alT4P9U2ShDX8ETAr3CS" version="14.9.6" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -21,7 +21,10 @@
             <mxPoint x="540" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PLzBvRJBb1i0x9DarlYK-2" value="segmentation mask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PLzBvRJBb1i0x9DarlYK-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#33FFFF;" edge="1" parent="1" source="PLzBvRJBb1i0x9DarlYK-2" target="PLzBvRJBb1i0x9DarlYK-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLzBvRJBb1i0x9DarlYK-2" value="semantic segmentation&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="160" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PLzBvRJBb1i0x9DarlYK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PLzBvRJBb1i0x9DarlYK-3" target="PLzBvRJBb1i0x9DarlYK-1">
@@ -37,7 +40,12 @@
           <mxGeometry x="330" y="235" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PLzBvRJBb1i0x9DarlYK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="PLzBvRJBb1i0x9DarlYK-6" target="PLzBvRJBb1i0x9DarlYK-11">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="350" />
+              <mxPoint x="510" y="180" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="PLzBvRJBb1i0x9DarlYK-6" value="pixel-level embeddings" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="330" width="150" height="40" as="geometry" />
@@ -48,7 +56,7 @@
         <mxCell id="PLzBvRJBb1i0x9DarlYK-11" value="forground embeddings" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="160" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PLzBvRJBb1i0x9DarlYK-12" value="cluster" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PLzBvRJBb1i0x9DarlYK-12" value="instance cluster" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="230" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PLzBvRJBb1i0x9DarlYK-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#33FFFF;" edge="1" parent="1" source="PLzBvRJBb1i0x9DarlYK-22" target="PLzBvRJBb1i0x9DarlYK-1">
@@ -78,10 +86,10 @@
         <mxCell id="PLzBvRJBb1i0x9DarlYK-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#33FFFF;" edge="1" parent="1" source="PLzBvRJBb1i0x9DarlYK-36" target="PLzBvRJBb1i0x9DarlYK-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PLzBvRJBb1i0x9DarlYK-36" value="mean shift" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="PLzBvRJBb1i0x9DarlYK-36" value="mean shift" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="672.5" y="300" width="85" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="PLzBvRJBb1i0x9DarlYK-37" value="k-means" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="PLzBvRJBb1i0x9DarlYK-37" value="k-means" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="672.5" y="330" width="85" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PLzBvRJBb1i0x9DarlYK-39" value="CE loss" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -91,7 +99,7 @@
           <mxGeometry x="15.17" y="274" width="109.66" height="116" as="geometry" />
         </mxCell>
         <mxCell id="PLzBvRJBb1i0x9DarlYK-43" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://raw.githubusercontent.com/Wizaron/instance-segmentation-pytorch/master/samples/CVPPP/plant033_rgb-fg_mask.png;" vertex="1" parent="1">
-          <mxGeometry x="567.74" y="50" width="94.53" height="100" as="geometry" />
+          <mxGeometry x="463.75" y="50" width="94.53" height="100" as="geometry" />
         </mxCell>
         <mxCell id="PLzBvRJBb1i0x9DarlYK-44" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://raw.githubusercontent.com/Wizaron/instance-segmentation-pytorch/master/samples/CVPPP/plant033_rgb-ins_mask_color.png;" vertex="1" parent="1">
           <mxGeometry x="800" y="185" width="122.89" height="130" as="geometry" />
