@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T06:40:56.849Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" version="17.4.6" etag="nDG79DVql7HUGflMN3sk" type="github"><diagram id="tGhpxiK8qQPnO92dQSBa">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-25T06:53:42.909Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="6oZhi9qwKNQDp3E1uHuL" version="17.4.6" type="github">
+  <diagram id="tGhpxiK8qQPnO92dQSBa" name="Page-1">
+    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a82GAD_70xhHoo0bjuHs-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a82GAD_70xhHoo0bjuHs-1" target="a82GAD_70xhHoo0bjuHs-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a82GAD_70xhHoo0bjuHs-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a82GAD_70xhHoo0bjuHs-1" target="a82GAD_70xhHoo0bjuHs-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a82GAD_70xhHoo0bjuHs-1" value="传感器数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="160" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a82GAD_70xhHoo0bjuHs-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a82GAD_70xhHoo0bjuHs-3" target="a82GAD_70xhHoo0bjuHs-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a82GAD_70xhHoo0bjuHs-3" value="图片数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a82GAD_70xhHoo0bjuHs-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a82GAD_70xhHoo0bjuHs-5" target="a82GAD_70xhHoo0bjuHs-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a82GAD_70xhHoo0bjuHs-5" value="图片、IMU、GPS、Lidar点云等其中的一种或者多种" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="240" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a82GAD_70xhHoo0bjuHs-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a82GAD_70xhHoo0bjuHs-7" target="a82GAD_70xhHoo0bjuHs-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a82GAD_70xhHoo0bjuHs-7" value="语义分割模型" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a82GAD_70xhHoo0bjuHs-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a82GAD_70xhHoo0bjuHs-9" target="a82GAD_70xhHoo0bjuHs-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a82GAD_70xhHoo0bjuHs-9" value="分割后的语义图片" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a82GAD_70xhHoo0bjuHs-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a82GAD_70xhHoo0bjuHs-11" target="a82GAD_70xhHoo0bjuHs-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a82GAD_70xhHoo0bjuHs-11" value="传统SLAM算法" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="320" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a82GAD_70xhHoo0bjuHs-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a82GAD_70xhHoo0bjuHs-13" target="a82GAD_70xhHoo0bjuHs-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a82GAD_70xhHoo0bjuHs-13" value="自车位姿，地面稀疏/稠密点云" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="400" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a82GAD_70xhHoo0bjuHs-16" value="输出数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="490" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
