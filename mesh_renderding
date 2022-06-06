@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-06T02:20:30.164Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="s-x6c7f2hXRaSnbH3YCc" version="18.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-06T09:07:34.471Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="tjGjyXA02tE_arVdKM7R" version="18.2.0" type="github">
   <diagram id="wSPF0bMPQy-zMiSjV_AK" name="Page-1">
-    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -226,8 +226,8 @@
         <mxCell id="9XbagIOufKJtE2JFQcTx-172" value="Render Label" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="567.88" y="367.5" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="9XbagIOufKJtE2JFQcTx-173" value="GT Label" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="577.88" y="422.5" width="80" height="20" as="geometry" />
+        <mxCell id="9XbagIOufKJtE2JFQcTx-173" value="Pred Label" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="572.88" y="422.5" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9XbagIOufKJtE2JFQcTx-175" value="Render RGB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="568.17" y="295" width="100" height="20" as="geometry" />
